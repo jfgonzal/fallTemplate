@@ -15,8 +15,15 @@ jsSources = ['components/scripts/child.js'];
 sassSources = ['components/sass/style.scss'];
 
 jsSources = [
-    'components/scripts/foo.js',
+    'components/scripts/bootstrap.js',
     'components/scripts/child.js'
+];
+
+cssSources = [
+    'components/css/bootstrap.css',
+    'components/css/bootstrap-theme.css',
+    'components/css/style.css',
+    'components/css/child.css'
 ];
 
 gulp.task('sass', function () {
@@ -28,7 +35,7 @@ gulp.task('sass', function () {
             console.error('Error!', err.message);
         })
         .pipe(sourcemaps.write())
-        .pipe(gulp.dest('builds/development/css'))
+        .pipe(gulp.dest('components/css/'))
         .pipe(connect.reload());
 });
 
@@ -37,6 +44,13 @@ gulp.task('js', function(){
         .pipe(concat('script.js'))
         .pipe(browserify({insertGlobals : true}))
         .pipe(gulp.dest(outputDir +'js'))
+        .pipe(connect.reload())
+});
+
+gulp.task('css', function(){
+    gulp.src(cssSources)
+        .pipe(concat('main.css'))
+        .pipe(gulp.dest(outputDir + 'css'))
         .pipe(connect.reload())
 });
 
@@ -49,6 +63,7 @@ gulp.task('watch', function(){
     gulp.watch('components/sass/**/*.scss', ['sass']);
     gulp.watch('builds/development/*.html', ['html']);
     gulp.watch(jsSources, ['js']);
+    gulp.watch(cssSources, ['css']);
 });
 
 gulp.task('connect', function(){
@@ -58,4 +73,4 @@ gulp.task('connect', function(){
     });
 });
 
-gulp.task('default', ['html', 'sass', 'js', 'connect', 'watch']);
+gulp.task('default', ['html', 'sass', 'js','css', 'connect', 'watch']);
