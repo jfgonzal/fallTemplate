@@ -1,5 +1,6 @@
 node_modules
 .tmp
+builds/development/img/*
 /.sass-cache
 builds/**/images/*
 .idea/

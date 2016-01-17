@@ -22,6 +22,8 @@ jsSources = [
 cssSources = [
     'components/css/bootstrap.css',
     'components/css/bootstrap-theme.css',
+    'components/css/slick.css',
+    'components/css/slick-theme.css',
     'components/css/style.css',
     'components/css/child.css'
 ];
