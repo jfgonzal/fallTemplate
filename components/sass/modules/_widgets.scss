@@ -5,10 +5,38 @@
 
 .media-screenshots{
   margin-top:20px;
-  padding:0px;
+  padding:0;
+}
+.media-section{
+  margin-top:20px;
+}
+.media-image{
+  margin:15px;
 }
 
-.media-image{
-  padding:0px;
-  margin-right:5px;
+.paginator-center{
+  position: relative;
+  float: right;
+  margin-bottom: 20px;
+
+  li{
+    margin-top: 20px;
+    position: relative;
+    float: left;
+    margin-right: 20px;
+  }
+}
+
+ .slick-prev:before{
+   color: red;
+   background-color:white;
+   border-radius:15px;
+   font-size: 30px;
+ }
+
+.slick-next:before {
+  color: red;
+  background-color:white;
+  border-radius:15px;
+  font-size: 30px;
 }

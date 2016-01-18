@@ -1,0 +1,6 @@
+{
+  "name": "gulpRocks",
+  "dependencies": {
+    "bootstrap": "~3.3.6"
+  }
+}
