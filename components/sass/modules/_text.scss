@@ -1,7 +1,38 @@
-.info-title{
+.info{
 
+  color:white;
+
+  &.info-title{
+    font-weight:bold;
+    margin-bottom:5px;
+    font-size:25px;
+  }
+
+  &.info-text{
+
+
+  }
 }
 
-.info-text{
+.quote{
+  font-weight:bold;
+  font-size:35px;
+  font-style:italic;
+}
 
+.extra-text-title{
+  font-weight:bold;
+}
+
+.meet-intro{
+  font-weight:bold;
+  font-size:30px;
+}
+
+.meet-title{
+  font-size:30px;
+}
+
+.meet-text{
+  color:blue;
 }
