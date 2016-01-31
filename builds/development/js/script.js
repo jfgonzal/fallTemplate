@@ -2372,14 +2372,14 @@ $(document).ready(function(){
         dots: true,
         infinite: true,
         arrows: true,
-        slidesToShow: 3,
+        slidesToShow: 4,
         centerPadding: '60px',
         slidesToScroll: 3,
         responsive: [
             {
                 breakpoint: 1024,
                 settings: {
-                    slidesToShow: 3,
+                    slidesToShow: 4,
                     slidesToScroll: 3,
                     infinite: true,
                     dots: true
@@ -2408,7 +2408,7 @@ $(document).ready(function(){
  * Created by zera on 1/13/2016.
  */
 
-}).call(this,require("ngpmcQ"),typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer,arguments[3],arguments[4],arguments[5],arguments[6],"/fake_d00c01a8.js","/")
+}).call(this,require("ngpmcQ"),typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer,arguments[3],arguments[4],arguments[5],arguments[6],"/fake_b6bce912.js","/")
 },{"buffer":2,"ngpmcQ":5}],2:[function(require,module,exports){
 (function (process,global,Buffer,__argument0,__argument1,__argument2,__argument3,__filename,__dirname){
 /*!
