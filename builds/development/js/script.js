@@ -2380,23 +2380,96 @@ $(document).ready(function(){
                 breakpoint: 1024,
                 settings: {
                     slidesToShow: 4,
+                    slidesToScroll: 4,
+                    infinite: true,
+                    dots: true
+                }
+            },
+            {
+                breakpoint: 982,
+                settings: {
+                    slidesToShow: 3,
                     slidesToScroll: 3,
                     infinite: true,
                     dots: true
                 }
             },
             {
-                breakpoint: 600,
+                breakpoint: 700,
                 settings: {
                     slidesToShow: 2,
-                    slidesToScroll: 2
+                    slidesToScroll: 2,
+                    infinite: true,
+                    dots: true
                 }
             },
             {
                 breakpoint: 480,
                 settings: {
                     slidesToShow: 1,
-                    slidesToScroll: 1
+                    slidesToScroll: 1,
+                    infinite: true,
+                    dots: true
+                }
+            }
+        ]
+    });
+});
+
+
+/**
+ * Created by zera on 1/13/2016.
+ */
+$(document).ready(function(){
+    $('.characters-lineup').slick({
+        dots: true,
+        infinite: true,
+        arrows: true,
+        slidesToShow: 7,
+        slidesToScroll: 4,
+        responsive: [
+            {
+                breakpoint: 1024,
+                settings: {
+                    slidesToShow: 6,
+                    slidesToScroll: 3,
+                    dots: true
+                }
+            },
+            {
+                breakpoint: 982,
+                settings: {
+                    slidesToShow: 5,
+                    slidesToScroll: 3,
+                    infinite: true,
+                    dots: true
+                }
+            },
+            {
+                breakpoint: 700,
+                settings: {
+                    slidesToShow: 4,
+                    slidesToScroll: 2,
+                    infinite: true,
+                    dots: true
+                }
+            },
+            {
+                breakpoint: 540,
+                settings: {
+                    slidesToShow: 3,
+                    slidesToScroll: 1,
+                    infinite: true,
+                    dots: true
+                }
+            },
+            {
+                breakpoint: 440,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 1,
+                    infinite: true,
+                    dots: true
                 }
             }
         ]
@@ -2408,7 +2481,7 @@ $(document).ready(function(){
  * Created by zera on 1/13/2016.
  */
 
-}).call(this,require("ngpmcQ"),typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer,arguments[3],arguments[4],arguments[5],arguments[6],"/fake_52e5e309.js","/")
+}).call(this,require("ngpmcQ"),typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer,arguments[3],arguments[4],arguments[5],arguments[6],"/fake_2fb39698.js","/")
 },{"buffer":2,"ngpmcQ":5}],2:[function(require,module,exports){
 (function (process,global,Buffer,__argument0,__argument1,__argument2,__argument3,__filename,__dirname){
 /*!
