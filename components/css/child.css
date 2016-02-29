@@ -1,0 +1,93 @@
+div.city-bottom-1 {
+    position: fixed;
+    bottom: 0;
+    right: 2px;
+    background: url(http://i.imgur.com/uT1dCXX.png) repeat 0 0;
+    width: 110%; height: 300px;
+    -webkit-animation: slide 2s linear infinite;
+    -moz-animation: slide 2s linear infinite;
+    -o-animation: slide 2s linear infinite;
+    animation: slide 2s linear infinite;
+    z-index: -1;
+}
+div.city-bottom-2 {
+    position: fixed;
+    bottom: 0;
+    right: 2px;
+    background: url(http://i.imgur.com/CDCbu7y.png) repeat 0 0;
+    width: 110%;  height: 300px;
+    -webkit-animation: slide 3s linear infinite;
+    -moz-animation: slide 3s linear infinite;
+    -o-animation: slide 3s linear infinite;
+    animation: slide 3s linear infinite;
+    z-index: -2;
+}
+div.city-bottom-3 {
+    position: fixed;
+    bottom: 0;
+    right: 2px;
+    background: url(http://i.imgur.com/3QuPlmB.png) repeat 0 0;
+    width: 110%; height: 300px; -webkit-animation: slide 4s linear infinite;
+    -moz-animation: slide 4s linear infinite;
+    -o-animation: slide 4s linear infinite;
+    animation: slide 4s linear infinite;
+    z-index: -3;
+}
+div.city-bottom-4 {
+    position: fixed;
+    bottom: 0;
+    right: 2px;
+    background: url(http://i.imgur.com/GfDCwry.png) repeat 0 0;
+    width: 110%; height: 300px; -webkit-animation: slide 5s linear infinite;
+    -moz-animation: slide 5s linear infinite;
+    -o-animation: slide 5s linear infinite;
+    animation: slide 5s linear infinite;
+    z-index: -4;
+}
+div.city-bottom-5 {
+    position: fixed;
+    bottom: 0;
+    right: 2px;
+    background: url(http://i.imgur.com/9dZDDm4.png) repeat 0 0;
+    width: 110%; height: 300px; -webkit-animation: slide 6s linear infinite;
+    -moz-animation: slide 6s linear infinite;
+    -o-animation: slide 6s linear infinite;
+    animation: slide 6s linear infinite;
+    z-index: -5;
+}
+div.city-bottom-6 {
+    position: fixed;
+    bottom: 0;
+    right: 2px;
+    background: url(http://i.imgur.com/MqgzH69.png) repeat 0 0;
+    width: 110%; height: 300px; -webkit-animation: slide 7s linear infinite;
+    -moz-animation: slide 7s linear infinite;
+    -o-animation: slide 7s linear infinite;
+    animation: slide 7s linear infinite;
+    z-index: -6;
+}
+
+div.city-bottom-7 {
+    position: fixed;
+    bottom: 0;
+    right: 2px;
+    background: url(http://i.imgur.com/ei8O2Zf.png) repeat 0 0;
+    width: 110%; height: 300px; -webkit-animation: slide 8s linear infinite;
+    -moz-animation: slide 8s linear infinite;
+    -o-animation: slide 8s linear infinite;
+    animation: slide 8s linear infinite;
+    z-index: -7;
+}
+
+div.hero-bkg-animated h1 {
+    font-family: sans-serif;
+}
+@-webkit-keyframes slide {
+    from { background-position: 0 0; }
+    to { background-position: -600px 0; }}
+@-moz-keyframes slide {
+    from { background-position: 0 0; }
+    to { background-position: -600px 0; }}
+@-o-keyframes slide {
+    from { background-position: 0 0; }
+    to { background-position: -600px 0; }}

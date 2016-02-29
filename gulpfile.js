@@ -11,19 +11,24 @@ var gulp = require('gulp'),
     concat = require('gulp-concat');
 
 outputDir = 'builds/development/';
-jsSources = ['components/scripts/child.js'];
+//jsSources = ['components/scripts/child.js'];
 sassSources = ['components/sass/style.scss'];
 
 jsSources = [
-    'components/scripts/bootstrap.js',
+    'node_modules/jquery/dist/jquery.js',
+    'node_modules/jquery/dist/jquery.min.js',
+    'node_modules/bootstrap/dist/js/bootstrap.js',
+    'node_modules/bootstrap/dist/js/bootstrap.min.js',
+    'node_modules/bootstrap/dist/js/npm.js',
     'components/scripts/child.js'
 ];
 
 cssSources = [
-    'components/css/bootstrap.css',
-    'components/css/bootstrap-theme.css',
-    'components/css/slick.css',
-    'components/css/slick-theme.css',
+    'node_modules/bootstrap/dist/css/bootstrap.css',
+    'node_modules/bootstrap/dist/css/bootstrap-theme.css',
+    'node_modules/slick-carousel/slick/slick.css',
+    'node_modules/slick-carousel/slick/slick-theme.css',
+    'node_modules/lightbox2/dist/css/lightbox.css',
     'components/css/style.css',
     'components/css/child.css'
 ];
